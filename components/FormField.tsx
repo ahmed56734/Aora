@@ -27,7 +27,7 @@ const FormField = ({
     <View className={twMerge('space-y-2', otherStyles)}>
       <Text className=" font-pmedium text-base text-gray-100">{title}</Text>
 
-      <View className="h-16 w-full flex-row items-center rounded-2xl  border-2 border-black-200 bg-black-100 px-4 focus:border-secondary">
+      <View className="mt-2 h-16 w-full flex-row items-center rounded-2xl  border-2 border-black-200 bg-black-100 px-4 focus:border-secondary">
         <TextInput
           className="flex-1 font-psemibold text-base text-white"
           value={value}

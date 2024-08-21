@@ -5,6 +5,7 @@
     "version": "1.0.0",
 
     "scheme": "aora",
+
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -29,7 +30,8 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kira.aora"
     },
     "android": {
       "adaptiveIcon": {
